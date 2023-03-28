@@ -1,0 +1,119 @@
+/* g css */
+:root {
+    --green: #03a413;
+    --g-black: #101828;
+    --d-black: #2f2e2e;
+    --d-blue: #101130;
+    --light-sky: #e3efff;
+    --ash: #737b85;
+    --l-black: #333333;
+    --purple: #522662;
+    --blue: #3f4f85;
+    --red: #e21c21;
+    --prple-blue: #23007a;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gradint.color {
+    color: #684fff;
+    color: #aa59ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+address,
+strong,
+i {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+/* my framework */
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.tac {
+    text-align: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.simple-row {
+    display: flex;
+    align-items: center;
+}
+
+
+.simple-row .text,
+.simple-row .image {
+    width: 50%;
+}
+
+@media(max-width:767px) {
+    .simple-row {
+        flex-direction: column;
+    }
+
+    .simple-row .text,
+    .simple-row .image {
+        width: 100%;
+    }
+}
+
+button {
+    border: none;
+    padding: 10px 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.res-image {
+    max-width: 100%;
+}
